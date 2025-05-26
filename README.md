@@ -1,20 +1,20 @@
 # Spectral Overlap Calculator
 
-This is a lightweight Python script for computing the **spectral overlap integral** between two molecular spectra — typically, the **emission spectrum** of a donor and the **absorption spectrum** of an acceptor. This quantity is often used in energy transfer studies, such as Förster Resonance Energy Transfer (FRET).
+This is a small Python script for computing the **spectral overlap integral** between two molecular spectra — typically, the **emission spectrum** of a donor and the **absorption spectrum** of an acceptor. This quantity is often used in energy transfer studies, such as Förster Resonance Energy Transfer (FRET).
 
 ---
 
-## 🧪 What It Does
+## What It Does
 
 Given two CSV files with spectral data in the form:
 
 ```
-Energy (eV), Intensity or Absorbance
+Energy (eV), Intensity (or Absorbance)
 ```
 
 the script:
 
-- Interpolates both datasets to a fine energy grid
+- Interpolates both datasets to a fine energy grid (to be specified within the script)
 - Normalizes each spectrum
 - Computes the spectral overlap integral:
 
@@ -35,19 +35,19 @@ the script:
 
 Install dependencies (if needed):
 
-```bash
+```
 pip install numpy scipy matplotlib
 ```
 
 ### Run the Script
 
-```bash
+```
 python3 spectral_overlap.py donor_emission.csv acceptor_absorption.csv
 ```
 
 ---
 
-## 📂 Included Example
+## Example Included
 
 Inside the folder `absorption-emission-example/`, you’ll find:
 
@@ -56,7 +56,7 @@ Inside the folder `absorption-emission-example/`, you’ll find:
 
 These data are digitized from:
 
-> **Gélinas et al.**, Nature Chemistry (2022)
+> **S. Cao et al.**, Nature Chemistry (2022)
 > [https://doi.org/10.1038/s41557-021-00697-z](https://doi.org/10.1038/s41557-021-00697-z)
 
 Use the example like this:
@@ -67,7 +67,7 @@ python3 spectral_overlap.py absorption-emission-example/pdpc-em.csv absorption-e
 
 ---
 
-## 📄 Output
+## Output
 
 - `data1_norm.csv`: Normalized emission data (donor)
 - `data2_norm.csv`: Normalized absorption data (acceptor)
@@ -75,7 +75,7 @@ python3 spectral_overlap.py absorption-emission-example/pdpc-em.csv absorption-e
 
 ---
 
-## 🛠  File Structure
+## File Structure
 
 ```
 spectral_overlap.py
@@ -87,12 +87,10 @@ README.md
 
 ---
 
-## 👨<200d>🔬 Author
+## Author
 
 Developed by **Pablo Grobas Illobre**
-📧 pgrobasillobre@gmail.com
-
-Feel free to use, cite, or modify. Contributions welcome!
+pgrobasillobre@gmail.com
 
 ---
 
