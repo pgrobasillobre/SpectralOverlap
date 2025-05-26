@@ -14,7 +14,7 @@ Energy (eV), Intensity (or Absorbance)
 
 the script:
 
-- Interpolates both datasets to a fine energy grid (to be specified within the script)
+- Interpolates both datasets to a fine energy grid
 - Normalizes each spectrum
 - Computes the spectral overlap integral:
 
@@ -47,6 +47,19 @@ python3 spectral_overlap.py donor_emission.csv acceptor_absorption.csv
 
 ---
 
+## Important
+
+Before running, edit the script to define the desired energy window and resolution:
+
+```python
+# --> Initialize variables
+min_energy    = 1.872   # Minimum Energy for the convoluted spectra in eV
+max_energy    = 1.950   # Maximum Energy for the convoluted spectra in eV
+grid_points   = 100000  # Number of energy points in the spectral range
+```
+
+---
+
 ## Example Included
 
 Inside the folder `absorption-emission-example/`, you’ll find:
@@ -56,12 +69,12 @@ Inside the folder `absorption-emission-example/`, you’ll find:
 
 These data are digitized from:
 
-> **S. Cao et al.**, Nature Chemistry (2022)
+> **S. Cao et al.**, Nature Chemistry (2022)  
 > [https://doi.org/10.1038/s41557-021-00697-z](https://doi.org/10.1038/s41557-021-00697-z)
 
 Use the example like this:
 
-```bash
+```
 python3 spectral_overlap.py absorption-emission-example/pdpc-em.csv absorption-emission-example/znpc-abs.csv
 ```
 
@@ -77,8 +90,8 @@ python3 spectral_overlap.py absorption-emission-example/pdpc-em.csv absorption-e
 
 ## Author
 
-Developed by **Pablo Grobas Illobre**
-pgrobasillobre@gmail.com
+Developed by **Pablo Grobas Illobre**  
+📧 pgrobasillobre@gmail.com
 
 ---
 
