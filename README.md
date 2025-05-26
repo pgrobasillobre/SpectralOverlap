@@ -26,7 +26,7 @@ the script:
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Requirements
 
@@ -75,18 +75,6 @@ python3 spectral_overlap.py absorption-emission-example/pdpc-em.csv absorption-e
 
 ---
 
-## File Structure
-
-```
-spectral_overlap.py
-absorption-emission-example/
-├── znpc-abs.csv
-├── pdpc-em.csv
-README.md
-```
-
----
-
 ## Author
 
 Developed by **Pablo Grobas Illobre**
@@ -94,6 +82,6 @@ pgrobasillobre@gmail.com
 
 ---
 
-## 📜 License
+## License
 
-MIT License. See [LICENSE](LICENSE) for details.
+This code is licensed under the **GNU General Public License v3.0**.
