@@ -10,6 +10,13 @@ import matplotlib.pyplot as plt
 from scipy.interpolate import interp1d
 
 
+# --> Input variables
+min_energy    = 1.872   # Minimum Energy for the convoluted spectra in eV
+max_energy    = 1.950   # Maximum Energy for the convoluted spectra in eV
+grid_points   = 100000  # Number of energy points in the spectral range
+
+
+
 # ==============================================================================
 #                            Spectral Overlap Calculator
 # ==============================================================================
@@ -48,11 +55,6 @@ from scipy.interpolate import interp1d
 #
 # ==============================================================================
 
-
-# --> Initialize variables
-min_energy    = 1.872   # Minimum Energy for the convoluted spectra in eV
-max_energy    = 1.950   # Maximum Energy for the convoluted spectra in eV
-grid_points   = 100000  # Number of energy points in the spectral range
 
 # --> Conversion factors
 ev_to_hartree = 1.0/27.211399
