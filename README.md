@@ -91,7 +91,7 @@ python3 spectral_overlap.py absorption-emission-example/pdpc-em.csv absorption-e
 ## Author
 
 Developed by **Pablo Grobas Illobre**  
-📧 pgrobasillobre@gmail.com
+contact: pgrobasillobre@gmail.com
 
 ---
 
