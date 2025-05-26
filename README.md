@@ -52,7 +52,7 @@ python3 spectral_overlap.py donor_emission.csv acceptor_absorption.csv
 Before running, edit the script to define the desired energy window and resolution:
 
 ```python
-# --> Initialize variables
+# --> Input variables
 min_energy    = 1.872   # Minimum Energy for the convoluted spectra in eV
 max_energy    = 1.950   # Maximum Energy for the convoluted spectra in eV
 grid_points   = 100000  # Number of energy points in the spectral range
