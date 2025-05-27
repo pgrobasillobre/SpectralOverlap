@@ -18,9 +18,10 @@ the script:
 - Normalizes each spectrum
 - Computes the spectral overlap integral:
 
-  \[
-  J = \int \text{Emission}(E) \cdot \text{Absorption}(E) \, dE
-  \]
+$$
+J = \int \text{Emission}(E) \cdot \text{Absorption}(E) \, dE
+$$
+
 
 - Outputs normalized spectra and prints the overlap in units of **eV⁻¹**
 
