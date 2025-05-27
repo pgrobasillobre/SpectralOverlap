@@ -19,7 +19,7 @@ the script:
 - Computes the spectral overlap integral:
 
 $$
-J = \int \text{Emission}(E) \cdot \text{Absorption}(E) \, dE
+J = \int \text{Emission}(E) \cdot \text{Absorption}(E) \ dE
 $$
 
 
