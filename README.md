@@ -2,7 +2,6 @@
 
 This is a small Python script for computing the **spectral overlap integral** between two molecular spectra — typically, the **emission spectrum** of a donor and the **absorption spectrum** of an acceptor. This quantity is often used in energy transfer studies, such as Förster Resonance Energy Transfer (FRET).
 
----
 
 ## What It Does
 
@@ -25,7 +24,6 @@ $$
 
 - Outputs normalized spectra and prints the overlap in units of **eV⁻¹**
 
----
 
 ## Quick Start
 
@@ -46,7 +44,6 @@ pip install numpy scipy matplotlib
 python3 spectral_overlap.py donor_emission.csv acceptor_absorption.csv
 ```
 
----
 
 ## Important
 
@@ -59,7 +56,6 @@ max_energy    = 1.950   # Maximum Energy for the convoluted spectra in eV
 grid_points   = 100000  # Number of energy points in the spectral range
 ```
 
----
 
 ## Example Included
 
@@ -79,7 +75,6 @@ Use the example like this:
 python3 spectral_overlap.py absorption-emission-example/pdpc-em.csv absorption-emission-example/znpc-abs.csv
 ```
 
----
 
 ## Output
 
@@ -87,21 +82,18 @@ python3 spectral_overlap.py absorption-emission-example/pdpc-em.csv absorption-e
 - `data2_norm.csv`: Normalized absorption data (acceptor)
 - Console output includes the **spectral overlap value**
 
----
-
-## Author
-
-Developed by **Pablo Grobas Illobre**  
-contact: pgrobasillobre@gmail.com
-
----
 
 ## Funding
 
 This project has been supported by the **FARE 2020** program — *"Framework per l’attrazione e il rafforzamento delle eccellenze per la ricerca in Italia."*
 
----
 
 ## License
 
 This code is licensed under the **GNU General Public License v3.0**.
+
+
+## Author
+
+Developed by **Pablo Grobas Illobre**  
+contact: pgrobasillobre@gmail.com
