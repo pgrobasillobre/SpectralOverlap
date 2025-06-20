@@ -96,6 +96,12 @@ contact: pgrobasillobre@gmail.com
 
 ---
 
+## Funding
+
+This project has been supported by the **FARE 2020** program — *"Framework per l’attrazione e il rafforzamento delle eccellenze per la ricerca in Italia."*
+
+---
+
 ## License
 
 This code is licensed under the **GNU General Public License v3.0**.
