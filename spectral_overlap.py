@@ -71,7 +71,7 @@ def read_command_line(command_line):
       print('')
       print('   Please provide inputs files:')
       print('')
-      print('      For more details --> python3 fret_coulomb.py -h')
+      print('      For more details --> python3 spectral_overlap.py -h')
       print('')
       print('')
       sys.exit()
@@ -79,7 +79,7 @@ def read_command_line(command_line):
    elif sys.argv[1] == '-h' or sys.argv[1] == '-help':
       print('')
       print('')
-      print(' Execution --> python3 spectral_overlap_from_exp.py file1.csv file2.csv')
+      print(' Execution --> python3 spectral_overlap.py file1.csv file2.csv')
       print('')
       print('')
       sys.exit()
